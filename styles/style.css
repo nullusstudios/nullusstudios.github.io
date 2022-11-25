@@ -114,28 +114,28 @@ html:focus-within {
 
 @-webkit-keyframes fadeInAnimation {
   0% {
-    opacity: 0;
+    -webkit-transition: opacity 0;
   }
   100% {
-    opacity: 1;
+    -webkit-transition: opacity 1;
   }
 }
 
 @-moz-keyframes fadeInAnimation {
   0% {
-    opacity: 0;
+    -moz-transition: opacity 0;
   }
   100% {
-    opacity: 1;
+    -moz-transition: opacity 1;
   }
 }
 
 @-o-keyframes fadeInAnimation {
   0% {
-    opacity: 0;
+    -o-transition: opacity 0;
   }
   100% {
-    opacity: 1;
+    -o-transition: opacity 1;
   }
 }
 

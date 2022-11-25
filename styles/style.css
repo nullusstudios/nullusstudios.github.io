@@ -112,6 +112,37 @@ html:focus-within {
   }
 }
 
+@-webkit-keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* -moz-transition: opacity 200ms ease-in-out;
+-webkit-transition: opacity 200ms ease-in-out;
+-o-transition: opacity 200ms ease-in-out; */
+
 body {
   font-family: var(--ff-ns-normal);
   font-size: var(--fs-400);

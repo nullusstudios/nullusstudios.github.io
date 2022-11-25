@@ -104,44 +104,40 @@ html:focus-within {
 /* Set core body defaults */
 
 @keyframes fadeInAnimation {
-  0% {
+  from {
     opacity: 0;
   }
-  100% {
+  to {
     opacity: 1;
   }
 }
 
 @-webkit-keyframes fadeInAnimation {
-  0% {
+  from {
     -webkit-transition: opacity 0;
   }
-  100% {
+  to {
     -webkit-transition: opacity 1;
   }
 }
 
 @-moz-keyframes fadeInAnimation {
-  0% {
+  from {
     -moz-transition: opacity 0;
   }
-  100% {
+  to {
     -moz-transition: opacity 1;
   }
 }
 
 @-o-keyframes fadeInAnimation {
-  0% {
+  from {
     -o-transition: opacity 0;
   }
-  100% {
+  to {
     -o-transition: opacity 1;
   }
 }
-
-/* -moz-transition: opacity 200ms ease-in-out;
--webkit-transition: opacity 200ms ease-in-out;
--o-transition: opacity 200ms ease-in-out; */
 
 body {
   font-family: var(--ff-ns-normal);

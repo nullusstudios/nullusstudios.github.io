@@ -1,103 +1,83 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
   <head>
+    <script src="redirection-mobile.js"></script>
+    <script>
+      SA.redirection_mobile({
+        redirection_param: "mobile_redirection",
+        mobile_url : "",
+        cookie_hours : "2"
+      });
+    </script>
     <title>Nullus Studios | About</title>
-
-    <!-- FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&family=Inter:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
-    <link rel="stylesheet" href="/styles/style.css" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel = "icon" type = "image/x-icon" href = "/assets/favicon.ico">
+    <link rel = "stylesheet" href = "styles/style.css">
+    <meta charset = "UTF-8">
+    <meta name = "description" content = "Portfolio of Nullus Studios">
+    <meta name = "author" content = "Kevin">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name = "twitter:card" content = "summary">
+    <meta name = "twitter:title" content = "About | Nullus Studios">
+    <meta name = "twitter:description" content = "summary">
+    <meta name = "twitter:image" content = "summary">
   </head>
-  <body class="about" frameborder="no">
-    <header class="primary-header flex">
-      <nav>
-        <ul class="primary-navigation logo-button">
-          <li></li>
-          <li></li>
-          <li></li>
-          <li class="active">
-            <a class="ff-serif letter-spacing-2 uppercase" href="/">About</a>
-          </li>
-          <li class="active">
-            <a href="/">
-              <img align="top" src="/images/logo.png" />
-            </a>
-          </li>
-          <li>
-            <a class="ff-serif letter-spacing-2 uppercase" href="/works"
-              >Works</a
-            >
-          </li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-      </nav>
+
+  <body>
+    <header class = "navbar">
+
+      <div class = "container">
+
+        <div class = "center">
+          <img id = "nullusN" src="images/n.png" onload="invert(1)" width="8%" height="8%"/></img>
+        </div>
+
+        <div class = "left">
+          <ul>
+            <li class = "active">
+              <a href = "#about">About</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class = "right">
+          <ul>
+            <li>
+              <a href="/works">Works</a>
+            </li>
+            <li>
+              <a href="/blog">Blog</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
     </header>
 
-    <div class="grid-container grid-container--home">
-      <div>
-        <p class="fs-400 ff-normal">
-          Nullus Studios is an independently-run studio focused on making
-          content on YouTube about keyboards and other keyboard related content.
-          The main theme here at Nullus Studios is minimalism, keeping
-          everything as minimal as possible to envoke a sense of essentiality.
-        </p>
-        <br />
+    <main class = "content">
+
+      <div class = "container">
+
+        <div class = "pictures">
+        </div>
+
       </div>
-      <div class="email">
-        <p>
-          <a class="fs-400 ff-normal" href="mailto:nullus.media@gmail.com"
-            >Email</a
-          >
-        </p>
-        <p>
-          <a
-            class="fs-400 ff-normal"
-            href="https://discord.gg/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Discord</a
-          >
-        </p>
-        <p>
-          <a
-            class="fs-400 ff-normal"
-            href="https://www.instagram.com/nullus_media/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Instagram</a
-          >
-        </p>
-        <p>
-          <a
-            class="fs-400 ff-normal"
-            href="https://www.youtube.com/@nullus."
-            target="_blank"
-            rel="noopener noreferrer"
-            >Youtube</a
-          >
-        </p>
-        <p>
-          <a
-            class="fs-400 ff-normal"
-            href="https://twitch.tv/null_us"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Twitch</a
-          >
-        </p>
+
+      <div class = "container">
+
+        <div class = "txtright">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
       </div>
-    </div>
+
+    </main>
 
     <script src="scripts/main.js"></script>
   </body>
+
 </html>

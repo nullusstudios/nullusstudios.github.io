@@ -20,7 +20,7 @@
   --fs-700: 1.5rem;
   --fs-600: 1rem;
   --fs-500: 1.75rem;
-  --fs-400: 0.9375rem;
+  --fs-400: 1.25rem;
   --fs-300: 1rem;
   --fs-200: 0.875rem;
 
@@ -39,7 +39,7 @@
   }
 }
 
-@media (min-width: 45em) {
+@media (min-width: 35em) {
   :root {
     /* font-sizes */
     --fs-800: 6.25rem;
@@ -104,13 +104,11 @@ html:focus-within {
 /* Set core body defaults */
 
 @keyframes fadeInAnimation {
-  from {
+  0% {
     opacity: 0;
-    visibility: hidden;
   }
-  to {
+  100% {
     opacity: 1;
-    visibility: visible;
   }
 }
 
@@ -125,10 +123,9 @@ body {
   line-height: 1.5;
   display: grid;
   grid-template-rows: min-content 1fr;
-  animation: fadeInAnimation 3s ease 1 forwards;
-  -webkit-animation: fadeInAnimation 3s ease 1 forwards;
-  -moz-animation: fadeInAnimation 3s ease 1 forwards;
-  -o-animation: fadeInAnimation 3s ease 1 forwards;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 /* A elements that don't have a class get default styles */
@@ -232,8 +229,8 @@ nav ul li a {
   place-content: left;
   padding-inline: 1rem;
   margin-top: auto;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .grid-container * {
@@ -471,8 +468,8 @@ nav ul li a {
 
 /* about */
 
-.about {
-}
+/* .about {
+} */
 
 .email {
   --gap: 8rem;

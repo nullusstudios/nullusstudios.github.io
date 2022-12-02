@@ -29,15 +29,15 @@
   --ff-ns-serif: "Rubik";
 }
 
-@media (min-width: 35em) {
+/* @media (min-width: 35em) {
   :root {
-    /* font-sizes */
+    font-sizes
     --fs-800: 5rem;
     --fs-700: 2.5rem;
     --fs-600: 1.5rem;
     --fs-400: 1.25rem;
   }
-}
+} */
 
 @media (min-width: 35em) {
   :root {

@@ -27,9 +27,14 @@
             <a class="ff-serif letter-spacing-2 uppercase" href="/">About</a>
           </li>
           <li class="active">
-            <a href="/">
+            <button id="homebutton" href="/">
               <img align="top" src="/images/logo.png" />
-            </a>
+            </button>
+            <script>
+              document.getElementById('myButton').addEventListener('click', function () {
+                alert('You clicked the button!')
+              })
+            </script>
           </li>
           <li>
             <a class="ff-serif letter-spacing-2 uppercase" href="/works"
